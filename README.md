@@ -79,6 +79,11 @@ you are using the Python in said environment.
 
 **Update:** some students have found that swapping out the command `python` for `python3` and `pip` for `pip3` may fix the issue above.
 
+
+## Before you start
+
+While completing each part of the tutorial note that `__main__` is entirely commented out, be sure to incrementally un-comment this as you make progress
+
 ## Part A: Implementing the misty water effect on colour images
 
 In this section, you will implement the following:

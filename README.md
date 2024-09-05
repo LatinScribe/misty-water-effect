@@ -1,6 +1,6 @@
 # Creating the misty water effect
 
-Date: Sept. 8th, 2022  
+Last Update: September 2024
 
 In this tutorial, we will create the misty water effect, a stylistic photography effect that processes moving water look soft and flowing. For example, let's compare an original single image of the [Great Gorge](https://www.niagarafallstourism.com/play/outdoor-recreation/white-water-walk/) near [Niagara Falls](https://www.niagaraparks.com) with another image taken from the same location that has the misty water effect applied:
 
@@ -74,11 +74,9 @@ python main.py
 ```
 All that will be generated are black box placeholders, which can be found in STUDENT.md. Once something is implemented, try running `main.py` again.
 
-**Note:** it could be possible that because of `PATH` issues, there is a redirect to an incorrect python version when running the above command. One example would be the command `python` starting up `python2.7` instead of `python3.7` despite being in the correct environment. This can cause issues with the OpenCV version for `python3.7`. It's possible to diagose this issue by running `which python` in your environment and checking that 
-you are using the Python in said environment.
+**Note:** It could be possible that because of `PATH` issues, there is a redirect to an incorrect python version when running the above command. One example would be the command `python` starting up `python2.7` instead of `python3.X` despite being in the correct environment. It's possible to diagose this issue by running `which python` in your environment and checking that you are using the Python version that you expected.
 
-**Update:** some students have found that swapping out the command `python` for `python3` and `pip` for `pip3` may fix the issue above.
-
+**Note:** If you are running on the `teach.cs` server you do not need to use conda or install any of the dependencies. You should be able to run the code as is.
 
 ## Before you start
 
